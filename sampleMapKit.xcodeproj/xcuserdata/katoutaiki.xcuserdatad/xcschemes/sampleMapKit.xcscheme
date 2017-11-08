@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DF03FF01FB2A6AC0089D4C2"
+               BuildableName = "sampleMapKit.app"
+               BlueprintName = "sampleMapKit"
+               ReferencedContainer = "container:sampleMapKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DF040041FB2A6AC0089D4C2"
+               BuildableName = "sampleMapKitTests.xctest"
+               BlueprintName = "sampleMapKitTests"
+               ReferencedContainer = "container:sampleMapKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DF0400F1FB2A6AC0089D4C2"
+               BuildableName = "sampleMapKitUITests.xctest"
+               BlueprintName = "sampleMapKitUITests"
+               ReferencedContainer = "container:sampleMapKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6DF03FF01FB2A6AC0089D4C2"
+            BuildableName = "sampleMapKit.app"
+            BlueprintName = "sampleMapKit"
+            ReferencedContainer = "container:sampleMapKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6DF03FF01FB2A6AC0089D4C2"
+            BuildableName = "sampleMapKit.app"
+            BlueprintName = "sampleMapKit"
+            ReferencedContainer = "container:sampleMapKit.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6DF03FF01FB2A6AC0089D4C2"
+            BuildableName = "sampleMapKit.app"
+            BlueprintName = "sampleMapKit"
+            ReferencedContainer = "container:sampleMapKit.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
